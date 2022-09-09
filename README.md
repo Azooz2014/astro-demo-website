@@ -2,10 +2,9 @@
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> 🧑‍🚀 **Seasoned astronaut?** Have fun!
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
+![basics](./screenshots/Screenshot%202022-09-09%20at%2016-52-23%20Astro%20Crash%20Course.png)
 
 ## 🚀 Project Structure
 
@@ -18,10 +17,18 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── src/
 │   ├── components/
 │   │   └── Card.astro
+│   │   └── Features.astro
+│   │   └── Footer.astro
+│   │   └── Header.astro
+│   │   └── Showcase.astro
+│   │   └── Tab.astro
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
 │       └── index.astro
+│       └── about.astro
+│       └── blog.astro
+│       └── [slug].astro
 └── package.json
 ```
 
